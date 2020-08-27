@@ -1,0 +1,19 @@
+.outerDiv
+{
+    height: 90%;
+    width: 100%;
+    padding: 5px;
+}
+.leftDiv
+{
+    height: 90%;
+    width: 70%;
+    float: left;
+}
+.rightDiv
+{
+    height: 90%;
+    width: 20%;
+    float: right;
+    padding: 5px;
+}			

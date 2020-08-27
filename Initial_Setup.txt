@@ -1,0 +1,8 @@
+1) install nodejs 
+2) Run command to install angular:
+npm install -g @angular/cli@8.3.12
+
+
+run command:
+npm install
+(under each folder to install packages)

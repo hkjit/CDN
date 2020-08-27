@@ -1,0 +1,16 @@
+{
+  "name": "replicaserver",
+  "version": "1.0.0",
+  "description": "Replica servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajaib Singh",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "curl-request": "^1.1.1",
+    "express": "^4.17.1"
+  }
+}

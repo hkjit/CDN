@@ -1,0 +1,27 @@
+ORIGIN:
+1) Give replica addresses in origin.js
+2) Start using:
+	node origin.js ../PATH 8000
+
+
+REPLICA:
+1) Give Origin address in replica.js
+2) start using command: 
+	node replica.js ../PATH 8001
+3) start atleast 2 such replicas on different paths and ports (eg. 8001 and 8002)
+
+
+CONTROLLER:
+1) Give replica and orgin address in controller.js
+2) start using command: 
+	node controller.js
+This will start controller http://localhost:3000
+
+
+APP:
+1) change REST_API_SERVER to point to controller address. in file data.service.ts under src/app  (default is http://localhost:3000)
+1)  start app using command:
+	ng serve
+This will start controller http://localhost:4200
+open browser on http://localhost:3000
+Also enable CORS in borowser
